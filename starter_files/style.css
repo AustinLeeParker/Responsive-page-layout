@@ -84,6 +84,7 @@ header{
 }
 #main_content{
     background-color: #ddffff;
+    padding: 15px;
 }
 #sidebar_content > div{
     background-color: #ffffdd;
@@ -110,6 +111,7 @@ header{
     #main_content{
         padding: 15px;
     }
+
     #sidebar_content {
         display: flex;
         flex-direction: row;
@@ -146,12 +148,22 @@ header{
     #main_nav > a{
         height: 30px;
     }
-    #main_content > div {
-        flex-direction: row;
-    }
+    #main_content{
+        display: flex;
+        flex-direction: row; 
+    } 
+    
     #site_footer{
         display: flex;
         justify-content: center;
     }
-
+    #sidebar_content{
+        
+    }
+    #main_content div:first-child{
+        flex: 3;
+    }
+    #main_content div:last-child{
+        flex: 1;
+    }
 }
