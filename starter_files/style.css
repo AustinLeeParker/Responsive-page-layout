@@ -88,7 +88,7 @@ header{
 }
 #sidebar_content > div{
     background-color: #ffffdd;
-    margin: 10px;
+    margin: 10px 0;
     padding: 8px;
 }
 #site_footer{
@@ -115,7 +115,7 @@ header{
     #sidebar_content {
         display: flex;
         flex-direction: row;
-        margin: 10px;
+        margin: 10px 0;
     }
     #sidebar_content > div{
         width: 35%;
